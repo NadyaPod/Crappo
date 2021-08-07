@@ -475,6 +475,12 @@ body {
 	font-weight: 500;
 	padding: 18px 32px;
 	border-radius: 32px;
+	transition: .2s ease background-color, .2s ease color;
+}
+
+.form-letter-btn:hover {
+	background-color: var(--purple);
+	color: var(--white);
 }
 
 .footer {
